@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.takehomeassignment08_rocioc.MainActivity">
+
+    <EditText
+        android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Show title" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Title"
+        android:onClick="setTitle" />
+
+    <EditText
+        android:id="@+id/flamenco_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artist name" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/perfomed_new_york"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have this artist performed in New York City?" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Artist"
+        android:onClick="addArtist" />
+
+</LinearLayout>
