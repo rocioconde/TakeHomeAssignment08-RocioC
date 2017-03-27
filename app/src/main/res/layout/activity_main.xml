@@ -7,7 +7,7 @@
     tools:context="com.example.android.takehomeassignment08_rocioc.MainActivity">
 
     <EditText
-        android:id="@+id/genre"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Show title" />
